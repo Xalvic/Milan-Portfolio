@@ -16,9 +16,9 @@ export class ProjectsComponent implements OnInit {
         info: 'Weather App',
       },
       {
-        site: 'http://vjsolutions.co/',
-        src: '../assets/vj.png',
-        info: 'VJ Solutions',
+        site: 'https://testlabs.netlify.app/',
+        src: '../assets/testlabs.png',
+        info: 'Test Labs 😅',
       },
       {
         site: 'https://xalvic-gallery.netlify.app/',
