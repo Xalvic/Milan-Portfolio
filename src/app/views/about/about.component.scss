@@ -1,0 +1,26 @@
+.about-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0px 90px 0px;
+}
+
+#hero-image {
+  width: 250px;
+  z-index: -1;
+  border-radius: 5px;
+  filter: grayscale(100%) opacity(80%);
+}
+
+@media only screen and (max-width: 380px) {
+  #hero-image {
+    width: 222px !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #hero-image {
+    width: 200px !important;
+  }
+}

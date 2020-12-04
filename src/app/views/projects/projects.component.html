@@ -1,0 +1,13 @@
+<!-- [@listAnimation]="items.length" -->
+<div class="projects-container">
+  <a
+    href="{{ item.site }}"
+    target="_blank"
+    class="list"
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('{{ item.src }}')"
+    *ngFor="let item of items"
+  >
+    <p>{{ item.info }}</p>
+  </a>
+</div>
