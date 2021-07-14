@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 35px 25px 90px 40px;
+  padding: 35px 25px 10px 40px;
   background-color: #303030;
   //   margin-top: -91px;
 }
@@ -35,5 +35,11 @@
     color: #ffb5b5e3;
     text-decoration-color: rgb(255, 0, 0);
     font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .skills-container {
+    padding: 35px 25px 90px 40px;
   }
 }
